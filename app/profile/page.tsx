@@ -7,7 +7,7 @@ function Public() {
   return (
     <div className="flex-col flex mt-10 justify-center items-center">
       <div className="mb-5 text-center">
-        <span className="text-xl">Protected Route for</span>
+        <span className="text-xl">Protected Profile for</span>
         <h3>Any logged Roles</h3>
       </div>
       <h2>Status: {data?.user?.name}</h2>
