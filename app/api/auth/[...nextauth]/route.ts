@@ -3,7 +3,7 @@ import { AuthOptions } from "next-auth";
 import NextAuth from "next-auth/next";
 import CredenProvider from "next-auth/providers/credentials";
 
-export const authOptions: AuthOptions = {
+const authOptions: AuthOptions = {
   // Configure one or more authentication providers
   providers: [
     CredenProvider({
