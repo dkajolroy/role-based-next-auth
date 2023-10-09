@@ -32,7 +32,7 @@ function SignIn({ searchParams: { callbackUrl, error } }: Props) {
           <Credential setActiveDemo={setActiveDemo} activeDemo={activeDemo} />
         )}
         <div className="flex mb-3 justify-between items-center">
-          <h2>Login </h2>
+          <h2>Please Login</h2>
           <button
             className="outline-none bg-teal-500 py-[6px] px-[10px] text-white hover:bg-teal-600 rounded "
             onClick={() => setActiveDemo((s) => !s)}

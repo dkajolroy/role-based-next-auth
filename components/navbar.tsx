@@ -3,10 +3,6 @@ import Logout from "./logout";
 
 const nav = [
   {
-    title: "Profile",
-    url: "/profile",
-  },
-  {
     title: "Admin",
     url: "/admin",
   },
